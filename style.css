@@ -3,78 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-p {
-    margin-bottom: 0;
-}
 
-header {
-    color: white;
-}
-
-header .bg_header{
-    background-color: #2C3E50;
-}
-
-header ul {
-    list-style-type: none;
-    margin-bottom: 0;
-}
-
-header ul li {
-    padding: 0 0.5rem;
-}
-
-header .background {
-    background-color: #2C3E50;
-}
-
-.row {
-    margin: 0;
-}
-/* *********************
-    HEADER
-**************** */
-
-
-/* *********************
-    HERO IMAGE
-**************** */
-#jumbo .img {
-    width: 300px;
-    margin: auto;
-}
-
-#jumbo {
-    background-color: #1ABC9C;
-    color: white;
-}
-
-#jumbo .star { 
-    height: 3px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    width: 26%;
-    margin: auto;
-}
-
-#jumbo .star .fa-star {
-    padding: 9px;
-    background-color: #1ABC9C;
-    font-size: 1.5rem;
-}
-
-#jumbo ul {
-    list-style-type: none;
-}
-
-#jumbo .background {
+#jumbo .jumbo-cont {
+    height: 400px;
     background-color: #1ABC9C;
 }
 
-#jumbo h1 {
-    font-size: 3rem;
+.riga-1 {
+    padding-top: 4rem;
 }
-/* *********************
-   / HERO IMAGE
-**************** */
+
+#portfolio .col-md-3, #portfolio .col-9 {
+    height: 200px;
+}
+
+/* ABOUT */
+/* / ABOUT */
