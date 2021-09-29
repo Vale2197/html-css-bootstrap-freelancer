@@ -15,11 +15,14 @@ header .bg_header{
     background-color: #2C3E50;
 }
 
-header .fa-bars {
-    color: #6D7277;
-    border: 1px solid #6D7277;
+header ul {
+    list-style-type: none;
+    margin-bottom: 0;
 }
 
+header ul li {
+    padding: 0 0.5rem;
+}
 /* *********************
     HEADER
 **************** */
