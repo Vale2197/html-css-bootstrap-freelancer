@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+p {
+    margin-bottom: 0;
+}
+
+header {
+    color: white;
+}
+
+header .bg_header{
+    background-color: #2C3E50;
+}
+
+header .fa-bars {
+    color: #6D7277;
+    border: 1px solid #6D7277;
+}
+
+/* *********************
+    HEADER
+**************** */
