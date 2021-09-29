@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header nav .nav-bar {
+    height: 80px;
+}
+
 #jumbo .jumbo-cont {
     height: 400px;
     background-color: #1ABC9C;
@@ -17,5 +21,49 @@
     height: 200px;
 }
 
+#portfolio .riga-1 .element {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
 /* ABOUT */
+
+#about {
+    height: 300px;
+    background-color: #1ABC9C;
+}
+
 /* / ABOUT */
+
+#contact {
+    height: 400px;
+    background-color: lightblue;
+}
+
+footer {
+    height: 200px;
+}
+
+footer .cont1 {
+    height: 150px;
+}
+
+footer .cont2 {
+    height: 50px;
+}
+
+
+
+@media screen and (max-width:767px) {
+    #portfolio .riga-1 .element {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #portfolio .riga-1 {
+        width: 80%;
+        margin: auto;
+    }
+}
