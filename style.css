@@ -233,6 +233,15 @@ footer .freelancer .color {
     #jumbo .jumbo-cont {
         width: 100%!important;
     }
+
+    .star {
+        height: 3px;
+        margin: 3rem auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /* /SMALL SCREEN */
 
