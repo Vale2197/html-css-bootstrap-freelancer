@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+.star {
+    height: 3px;
+    margin: 3rem auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-star {
+    padding: 1rem;
+}
+
 header {
     color: white;
 }
@@ -24,6 +37,10 @@ header .fa-bars {
     font-size: 1.5rem;
 }
 
+header button .fa-bars {
+    color: gray;
+    padding-top: 0.2rem;
+}
 /* ****************
    /  HEADER
 ****************** */
@@ -38,6 +55,7 @@ header .fa-bars {
 
 #jumbo{
     background-color: #1ABC9C;
+    color: white;
 }
 
 #jumbo .riga_1{
@@ -59,6 +77,14 @@ header .fa-bars {
     display: inline;
 }
 
+#jumbo .star {
+    background-color: white;
+}
+
+#jumbo .fa-star {
+    background-color: #1ABC9C;
+}
+
 /* ****************
    /  JUMBO CONT
 ****************** */
@@ -71,37 +97,120 @@ header .fa-bars {
 #portfolio img {
     width: 100%;
     height: auto;
+    border-radius: 1rem;
+}
+
+#portfolio .star {
+    background-color: black;
+}
+
+#portfolio .fa-star {
+    background-color: white;
 }
 
 /* ****************
    /  PORTFOLIO
 ****************** */
 
-/* ABOUT */
 
+
+
+
+/* ****************
+     ABOUT
+****************** */
 #about {
-    height: 300px;
+    background-color: #1ABC9C;
+    color: white;
+}
+
+#about .about_cont {
+    width: 60%;
+    margin: auto;
+}
+
+#about .download_class button {
+    color: white;
+}
+
+#about .star {
+    background-color: white;
+}
+
+#about .fa-star {
     background-color: #1ABC9C;
 }
 
-/* / ABOUT */
+/* ****************
+   /  ABOUT
+****************** */
 
+
+
+
+
+
+
+/* ****************
+     CONTACT
+****************** */
 #contact {
-    height: 400px;
-    background-color: lightblue;
+    background-color: white;
 }
 
+#contact .contact_cont {
+    width: 60%;
+}
+
+#contact .message {
+    margin-bottom: 7rem;
+}
+
+#contact .send_btn {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+#contact .star {
+    background-color: black;
+}
+
+#contact .fa-star {
+    background-color: white;
+}
+/* ****************
+   /  CONTACT
+****************** */
+
+
+
+
+
+/* FOOTER */
 footer {
-    height: 200px;
-}
-
-footer .cont1 {
-    height: 150px;
+    background-color: #3A546D;
+    color: white;
 }
 
 footer .cont2 {
-    height: 50px;
+    background-color: #2C3E50;
 }
+
+footer .cont1 .icons .facebook_img, 
+footer .cont1 .icons .google_img, 
+footer .cont1 .icons .twitter_img, 
+footer .cont1 .icons .linkedin_img {
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+}
+
+
+footer .freelancer .color {
+    color: #1ABC9C;
+}
+/* FOOTER */
 
 
 
@@ -125,23 +234,48 @@ footer .cont2 {
         width: 100%!important;
     }
 }
-
 /* /SMALL SCREEN */
 
-@media screen and (min-width:992px) {
-    #portfolio .riga-1 {
-        width: 70%;
-        margin: auto;
+
+
+@media screen and (min-width: 992px) {
+    header nav {
+        height: 80px;
     }
 
-}
+    header nav {
+        display: flex;
+        align-items: center;
+    }
 
-@media screen and (min-width:1200px) {
-    #portfolio .riga-1 {
-        width: 60%;
-        margin: auto;
+    h2, h1 {
+        font-size: 3.5rem;
+    }
+
+    .fa-star {
+        font-size: 2rem;
     }
 }
+
+/* / md SCREEN */
+
+@media screen and (min-width: 1200px) {
+    
+    footer .icon_contact .icons {
+        font-size: 1.7rem;
+    } 
+
+    footer .cont1 .icons .facebook_img, 
+    footer .cont1 .icons .google_img, 
+    footer .cont1 .icons .twitter_img, 
+    footer .cont1 .icons .linkedin_img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    
+}
+
+
 
 /* ****************
    / QUERIES
