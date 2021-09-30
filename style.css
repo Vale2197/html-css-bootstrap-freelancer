@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-header nav .nav_bar {
-    height: 80px;
-}
-
 header {
     color: white;
 }
@@ -22,6 +18,10 @@ header nav .navbar-brand {
 
 .container_nav {
     flex-grow: 1;
+}
+
+header .fa-bars {
+    font-size: 1.5rem;
 }
 
 /* ****************
@@ -49,23 +49,33 @@ header nav .navbar-brand {
     width: 60%;
     margin: auto;
 }
+
+#jumbo .riga_1 ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#jumbo .riga_1 ul li {
+    display: inline;
+}
+
 /* ****************
    /  JUMBO CONT
 ****************** */
 
-.riga-1 {
-    padding-top: 4rem;
+
+
+/* ****************
+    PORTFOLIO
+****************** */
+#portfolio img {
+    width: 100%;
+    height: auto;
 }
 
-#portfolio .col-md-3, #portfolio .col-9 {
-    height: 200px;
-}
-
-#portfolio .riga-1 .element {
-    height: 200px;
-    width: 200px;
-    background-color: black;
-}
+/* ****************
+   /  PORTFOLIO
+****************** */
 
 /* ABOUT */
 
@@ -95,16 +105,28 @@ footer .cont2 {
 
 
 
+
+
+/* ****************
+    QUERIES
+****************** */
 @media screen and (max-width:767px) {
-    #portfolio .riga-1 .element {
-        width: 100%;
-    }
 
     header .nav_bar {
         width: 100% !important;
-        padding: 0.5rem;
+        padding: 1.5rem;
+    }
+
+    #portfolio .portfolio_cont {
+        width: 100%!important;
+    }
+
+    #jumbo .jumbo-cont {
+        width: 100%!important;
     }
 }
+
+/* /SMALL SCREEN */
 
 @media screen and (min-width:992px) {
     #portfolio .riga-1 {
@@ -120,3 +142,7 @@ footer .cont2 {
         margin: auto;
     }
 }
+
+/* ****************
+   / QUERIES
+****************** */
